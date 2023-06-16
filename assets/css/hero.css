@@ -69,8 +69,8 @@ body, html, #app {
   }
   
   #app h1 {
-    --fontSize: 50px;
-    --lineHeight: 60px;
+    --fontSize: 45px;
+    --lineHeight: 55px;
     margin-top:-20px;
     width: auto;
     height: calc(2 * var(--lineHeight));
