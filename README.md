@@ -1,2 +1,10 @@
-# MainakVerse
-The unified platform to reach Mainak
+# MainakVerse - Personal portfolio
+
+
+## Demo
+
+
+
+## License
+
+MIT

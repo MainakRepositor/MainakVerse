@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MainakVerse</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&amp;display=swap'>
+  <link rel="stylesheet" href="/assets/css/hero.css">
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+</head>
+<body>
+
+  <div class="loader_bg">
+    <p style="color:rgb(179, 237, 245); font-size: 30px; text-align: center; margin-top:250px; margin-left: 20px;">PREPARING...</p>
+    <div class="loader"></div>
+  </div>
+
+  <div id="app">
+    <div id="hero">
+      <h1 class="show-anim">welcome to<br/>MAINAKVERSE</h1>      
+      
+      <a href="home.html">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Launch
+      </a>
+    </div>
+  </div>
+  
+ 
+
+  
+    <script type="module" src="./assets/js/hero.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      setTimeout(function()
+      {
+        $('.loader_bg').fadeToggle();
+      }, 2500);
+    </script>
+</body>
+</html>

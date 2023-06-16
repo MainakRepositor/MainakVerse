@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MainakVerse</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="loader_bg">
+    
+    <div class="loader"></div>
+    <p style="color:rgb(179, 237, 245); font-size: 30px; text-align: center; margin-top:250px; margin-left: 20px;">LAUNCHING...</p>
+  </div>
+  
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img id="image" src="./assets/images/my-avatar.png" alt="Mainak Chaudhuri" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" style="color:rgb(146, 146, 249)">Mainak Chaudhuri</h1>
+          <center><p style="color:white; margin-bottom: -2px;">I'm a</p> 
+            <div style="display:inline-block; color:lightskyblue; font-size: 15px;"><a class="typing"></a></div>
+            </center>
+          
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:mainakc24365@gmail.com" class="contact-link">mainakc24365@gmail.com</a>
+            </div>
+
+          </li>
+
+          
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2001-04-17">17th April, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Kolkata, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.github.com/MainakRepositor" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mainak-chaudhuri-127898176/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Data Scientist and Software Developer from Kolkata, India, working the way my heart directs me and fuel the creative side of myself.I enjoy turning complex problems into simple, beautiful and intuitive solutions.
+          </p>
+
+          <p>
+            My aim is to build your product in a way so that it is flawlessly functional and user-friendly, at the same time being attractive as well. I never forget to add a special touch to my products which makes them a benchmark and wins the hearts of my esteemed clients. Well at the end of the day, it all rests at your satisfaction.
+          </p>
+        </section>
+
+        <hr>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My Expertise</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/dev.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Development</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality software made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-data.png" alt="Web Development" icon width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  High-quality inference from your data at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-blog.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Blogging</h4>
+
+                <p class="service-item-text">
+                  Amateur blogging, citing and editing articles at Wikipedia.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-mentor.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Research</h4>
+
+                <p class="service-item-text">
+                  Research and development on technology and astrophysics.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <hr>
+
+        
+        <section class="counters">
+          <h3 class="h3 service-title">Some Informative Counts</h3>
+        <div class="container">
+    
+          <div class="row">
+      
+        <div class="four col-md-3">
+          <div class="counter-box colored">
+            <i class="fas fa-certificate"></i>
+            <span class="counter">50</span>
+            <p>Certificates Earned</p>
+          </div>
+        </div>
+        <div class="four col-md-3">
+          <div class="counter-box colored">
+            <i class="fa-brands fa-github"></i>
+            <span class="counter">7304</span>
+            <p>Github Contributions</p>
+          </div>
+        </div>
+        <div class="four col-md-3">
+          <div class="counter-box colored">
+            <i class="fa  fa-gear"></i>
+            <span class="counter">200</span>
+            <p>Projects Completed</p>
+          </div>
+        </div>
+        <div class="four col-md-3">
+          <div class="counter-box colored">
+            <i class="fa  fa-pen"></i>
+            <span class="counter">500</span>
+            <p>Blogging & Editing</p>
+          </div>
+        </div>
+        </div>	
+      </div>
+    </section>
+
+      <br>
+        <!--
+          - testimonials
+        -->
+        <hr>
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Utkarsh" width="40" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Utkarsh Chaturvedi</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I wholeheartedly endorse Mainak for his exceptional skills in Streamlit UI/UX development, machine learning models, full-stack websites with integrated A.I., project management, DevOps, and Data Management. Working alongside him has been an absolute pleasure, and I have no doubt that Mainak's future endeavors will be met with tremendous success.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Adweetiya" width="40" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Adweetiya Dwivedi</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I'm happy to recommend Mainak . I'm delighted to have such an amazing junior like him. He's just to say junior but in real he is an exceptionally sharp minded person who can tackle any challenges. I just wish Mainak all the very best for his new Journey, hope we'll always be in touched in future too.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Sumagna" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sumagna Banerjee</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mainak has been a bright student since I have met him. I feel blessed to be a preacher to such a humble soul. He is talented and brilliant with his skills and ideas that might help him build for himself a blazing upcoming. A triumphant in the making. An intelligent student and a wonderful teacher at the same time, juxtaposed a completion in him. It's rare that you come across standout talent like Mainak. I was particularly impressed by Mainak's ability to handle even the toughest scenario with vehement audacity and suave ease. I have known him since 2013 and since then I found the invincibility in him to find solutions and answers to any weird and tricky questions thrown. Am sure he would be an asset to any team.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Alapan" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Alapan Kar</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mainak was my junior in College. He is one of the most hearty persons with a lively mind I have ever met. I have seen the zeal in him to chase and achieve the goals he sets for himself. His passion and dedication towards his work is something that sets him apart from the rest. I believe, his insatiable quest for knowledge will always help him grow and succeed in his own way.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Lorem Ipsum</h4>
+
+              
+
+              <div data-modal-text>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illo consectetur atque quia natus tempore assumenda maiores rerum dolorem quos voluptates placeat, sunt officia nam? Est recusandae ipsum fugiat facere!
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SRM Institute of Science and Technology, Chennai</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                <strong>B.Tech</strong> in Computer Science and Engineering, with <em>specializaiton in Big Data Analytics.</em><br>
+                CGPA: 8.54
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bodhicariya Senior Secondary School, Rajarhat</h4>
+
+              <span>2018 — 2019</span>
+
+              <p class="timeline-text">
+                Studied Pure Science with Computer Science<br>
+                Passed AISSCE (Std. XII)<br>
+                Score: 75%
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vision International School, Makhla</h4>
+
+              <span>2016-2017</span>
+
+              <p class="timeline-text">
+                Completed Elementary Schooling<br>
+                Passed CISCE (Std. X)<br>
+                Score: 89.4%
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><a href="https://mws-tech.netlify.app/" target="_blank">CEO @ MWS</a></h4>
+
+              <span id="duration">Apr, 2023 - Present</span>
+
+              <p class="timeline-text">
+                ✔ Managed of 100+ clients in a month.<br> 
+                ✔ Developed 250+ softwares and documentations.<br> 
+                ✔ Conducted research and development on industrial techniques for fine-tuning.<br>
+                ✔ Performed market research and customer surveys for improvements.
+              </p>
+              
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><a href="https://www.linkedin.com/in/mainak-chaudhuri-127898176/details/experience/1635526451886/single-media-viewer/?profileId=ACoAACnHD68BXHi59ZXlqb6ACCqi7dXnM9pl2-A" target="_blank">Mentor @ Placeopedia</a></h4>
+
+              <span id="duration">Dec, 2022 - Apr, 2023</span>
+
+              <p class="timeline-text">
+                ✔ Course Mentor at Placeopedia.<br> 
+                ✔ Taught <em>elementary and intermediate coding</em> to juniors (1st year to 3rd year) in C++ and Python.<br> 
+                ✔ Guided them in placements and career development.<br>
+              </p>
+              
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><a href="https://www.linkedin.com/in/mainak-chaudhuri-127898176/details/experience/1635495162413/single-media-viewer/?profileId=ACoAACnHD68BXHi59ZXlqb6ACCqi7dXnM9pl2-A" target="_blank">Backend Developer Intern @ Techinfer </a></h4>
+
+              <span id="duration">May,2022 - Jun,2022</span>
+
+              <p class="timeline-text">
+                ✔ Worked with REST APIs and backend architectures of a social media website.<br>
+                ✔ Worked on integration of the backend with the frontend.<br>
+                ✔ Managed the databases (MongoDB clusters) and worked on the data flow.<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><a href="https://www.linkedin.com/in/mainak-chaudhuri-127898176/details/experience/1635486746559/single-media-viewer/?profileId=ACoAACnHD68BXHi59ZXlqb6ACCqi7dXnM9pl2-A" target="_blank">Django Developer Intern @ Zummit Infolabs </a></h4>
+
+              <span id="duration">Jan, 2022 — Apr, 2022</span>
+
+              <p class="timeline-text">
+                ✔ Worked as a Django Developer intern.<br>
+                ✔ Developed Django forms and views.<br>
+                ✔ Re-designed frontend components using bootstrap.<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><a href="https://www.linkedin.com/in/mainak-chaudhuri-127898176/details/experience/1609262704394/single-media-viewer/?profileId=ACoAACnHD68BXHi59ZXlqb6ACCqi7dXnM9pl2-A" target="_blank">Full-stack Web Developer @ 8Sems </a></h4>
+
+              <span id="duration">Jan, 2022 — Apr, 2022</span>
+
+              <p class="timeline-text">
+                ✔ Worked as a Django Developer intern.<br>
+                ✔ Developed Django forms and views.<br>
+                ✔ Re-designed frontend components using bootstrap.<br>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        
+
+        <section class="counters">
+          <h3 class="h3 service-title">Technical Skills</h3>
+        <div class="container">
+    
+          <div class="row">
+      
+        <div class="four col-md-3">
+          <div class="counters-box colored">
+            <i class="fa-brands fa-react"></i>
+            <p>React</p>
+          </div>
+        </div>
+        <div class="four col-md-3">
+          <div class="counters-box colored">
+            <i class="fa-brands fa-python"></i>
+            <p>Python</p>
+          </div>
+        </div>
+        <div class="four col-md-3">
+          <div class="counters-box colored">
+            <i class="fa-brands fa-php"></i>
+            <p>PHP</p>
+          </div>
+        </div>
+        <div class="four col-md-3">
+          <div class="counters-box colored">
+            <i class="fa-brands fa-git-alt"></i>
+            <p>Git</p>
+          </div>
+        </div>
+        <div class="four col-md-3">
+          <div class="counters-box colored">
+            <i class="fa-solid fa-database"></i>
+            <p>DBMS</p>
+          </div>
+        </div>
+        <div class="four col-md-3">
+          <div class="counters-box colored">
+            <i class="fa-brands fa-bootstrap"></i>
+            <p>Bootstrap</p>
+          </div>
+        </div>
+        <div class="four col-md-3">
+          <div class="counters-box colored">
+            <i class="fa-brands fa-node-js"></i>
+            <p>NodeJS</p>
+          </div>
+        </div>
+        <div class="four col-md-3">
+          <div class="counters-box colored">
+            <i class="fa-solid fa-cloud"></i>
+            <p>Cloud</p>
+          </div>
+        </div>
+        </div>	
+      </div>
+    </section>
+    <br>
+    <br>
+    <section class="counters">
+      <h3 class="h3 service-title">Non-technical Skills</h3>
+    <div class="container">
+
+      <div class="row">
+  
+    <div class="four col-md-3">
+      <div class="counters-box colored">
+        <i class="fa-brands fa-blogger"></i>
+        <p>Creative Writing & Blogging</p>
+      </div>
+    </div>
+    <div class="four col-md-3">
+      <div class="counters-box colored">
+        <i class="fa-brands fa-wikipedia-w"></i>
+        <p>Wikipedia Editing</p>
+      </div>
+    </div>
+    <div class="four col-md-3">
+      <div class="counters-box colored">
+        <i class="fa-brands fa-figma"></i>
+        <p>Digital Arts & Designing</p>
+      </div>
+    </div>
+    <div class="four col-md-3">
+      <div class="counters-box colored">
+        <i class="fa-solid fa-satellite"></i>
+        <p>Astrophysics Research</p>
+      </div>
+    </div>
+        
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Dashboards</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Dashboards</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AI</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="dashboards">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./assets/images/project-1.jpg" alt="sample superstore" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://github.com/DataMinati/PowerBI-DRS/tree/main/Sample%20Superstore" target="_blank">Sample Superstore</a></h3>
+
+                <p class="project-category">Dashboards</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./assets/images/project-2.png" alt="tomatonix" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://github.com/MainakRepositor/TLDP" target="_blank">Tomato Leaf Disease Prediction</a></h3>
+
+                <p class="project-category">Artificial Intelligence</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./assets/images/project-3.jpg" alt="healthifer" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://github.com/MainakRepositor/Healthifer" target="_blank">Healthifer</a></h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="dashboards">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./assets/images/project-4.png" alt="HR Analytics" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://github.com/DataMinati/PowerBI-DRS/tree/main/HR" target="_blank">HR Analytics</a></h3>
+
+                <p class="project-category">Dashboards</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./assets/images/project-5.png" alt="Speech Emotion Recognition" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://github.com/MainakRepositor/SER" target="_blank">Speech Emotion Recognition</a></h3>
+
+                <p class="project-category">Artificial Intelligence</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./assets/images/project-6.png" alt="visionpro" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://github.com/MainakRepositor/AppleFolio" target="_blank">Apple Folio</a></h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="dashboards">
+              <a href="#">
+
+                <figure class="project-img">
+                 
+
+                  <img src="./assets/images/project-7.png" alt="census" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://github.com/DataMinati/PowerBI-DRS/tree/main/Census" target="_blank">Census</a></h3>
+
+                <p class="project-category">Dashboards</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./assets/images/project-8.jpg" alt="pathfinder" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://github.com/MainakRepositor/Efficient-PathFinder" target="_blank">Smart Pathfinder</a></h3>
+
+                <p class="project-category">Artificial Intelligence</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+                  <img src="./assets/images/project-9.png" alt="graph-noder" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://github.com/MainakRepositor/Graph-Node-Generator" target="_blank">Graph Node Generator</a></h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+               
+
+                  <h3 class="h3 blog-item-title">The Melancholic Wheels</h3>
+
+                  <p class="blog-text">
+                    A poem describing the heart-breaking accident of Coromandel express near Balasore station in June, 23.
+                  </p>
+                  <div class="text-center">
+                  <button type="button" onclick="window.location.href = 'https://luciferkhusrao.blogspot.com/2023/06/the-melancholic-wheels.html';" class="btn btn-success">Read 📖</button></div>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  
+
+                  <h3 class="h3 blog-item-title">The King of Kung-Fu</h3>
+
+                  <p class="blog-text">
+                    The biography of the founder of the world's most practiced martial art and the relics of the legend.
+                  </p>
+                  <div class="text-center">
+                    <button type="button" onclick="window.location.href = 'https://luciferkhusrao.blogspot.com/2023/03/the-king-of-kung-fu.html';" class="btn btn-success">Read 📖</button></div>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+
+                  <h3 class="h3 blog-item-title">The Lions of Chamkaur</h3>
+
+                  <p class="blog-text">
+                    An amazing historical exerpt narrating the unmatched bravery and warfare of the Sikhs.
+                  </p>
+                  <div class="text-center">
+                    <button type="button" onclick="window.location.href = 'https://luciferkhusrao.blogspot.com/2023/03/lions-of-chamkaur.html';" class="btn btn-success">Read 📖</button></div>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                 
+
+                  <h3 class="h3 blog-item-title">The Last Lap</h3>
+
+                  <p class="blog-text">
+                    The depressed narration of a teenager's sorrows and a potrayal of the state of mind, when nothing falls in place.
+                  </p>
+                  <div class="text-center">
+                    <button type="button" onclick="window.location.href = 'https://luciferkhusrao.blogspot.com/2021/11/the-last-lap.html';" class="btn btn-success">Read 📖</button></div>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                 
+
+                  <h3 class="h3 blog-item-title">The Cyber Friend</h3>
+
+                  <p class="blog-text">
+                    The story of a boy of Kolkata and a girl of Lucknow and the way became partners despite differences.
+                  </p>
+                  <div class="text-center">
+                    <button type="button" onclick="window.location.href = 'https://luciferkhusrao.blogspot.com/2021/11/the-cyber-friend.html';" class="btn btn-success">Read 📖</button></div>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  
+
+                  <h3 class="h3 blog-item-title">Someone Special</h3>
+
+                  <p class="blog-text">
+                    A peculiar story of love and trust, which can reinstill the love for humanity and trust in relations.
+                  </p>
+                  <div class="text-center">
+                    <button type="button" onclick="window.location.href = 'https://luciferkhusrao.blogspot.com/2022/12/someone-special.html';" class="btn btn-success">Read 📖</button></div>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235850.77234260755!2d88.20726680979337!3d22.535366728335454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1686833732494!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/meqwykko" method="post" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="assets/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Data Scientist", "Software Developer", "ML/DL Enthusiast","Quantum Computing Researcher","Solopreneur","Signator @ Wikipedia","Astrophysicist","Educator"],
+      loop: true,
+      typeSpeed: 65,
+      backSpeed: 65,
+      showCursor: false
+    });
+  </script>
+  <script type="module" src="./assets/js/hero.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      setTimeout(function()
+      {
+        $('.loader_bg').fadeToggle();
+      }, 2500);
+    </script>
+</body>
+
+</html>
