@@ -1,5 +1,23 @@
 # MainakVerse - Personal portfolio
 
+## Techs used:
+
+- HTML
+- CSS
+- JavaScript (ECMA Script)
+- JQuery
+- Bootstrap
+- Ajax
+
+## Cloud Management:
+- Hostings and File Management : Netlify
+- Contact Management : Formspree
+
+## Lighthouse Rating:
+![image](https://github.com/MainakRepositor/MainakVerse/assets/64016811/73957c1d-54e3-4d5d-8bd8-100d3d818e53)
+![image](https://github.com/MainakRepositor/MainakVerse/assets/64016811/735a3003-e858-45a8-bf6c-e6b15660e83a)
+
+
 
 ## Laptop View
 
