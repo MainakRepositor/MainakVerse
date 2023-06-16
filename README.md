@@ -12,17 +12,19 @@
 **3. Multi-tabular Home Page (About Tab)**
 ![image](https://github.com/MainakRepositor/MainakVerse/assets/64016811/a4dedf02-b432-4ee1-9867-c2a66c96563e)
 
-**4. Resume Tab**
+**3.1 Counter Section (About Tab)**
 ![image](https://github.com/MainakRepositor/MainakVerse/assets/64016811/1c154242-f2f8-4639-8f07-d9f4ac6018f7)
 
-**5. Portfolio Tab**
+**4. Resume Tab**
 ![image](https://github.com/MainakRepositor/MainakVerse/assets/64016811/37866921-8ebf-4022-b2e3-0366c33cb40e)
 
-**6. Blog Tab**
+**5. Portfolio Tab**
 ![image](https://github.com/MainakRepositor/MainakVerse/assets/64016811/573bb654-31d0-4ce1-a0e9-caed071c28ec)
 
-**7. Contacts Tab**
+**6. Blog Tab**
 ![image](https://github.com/MainakRepositor/MainakVerse/assets/64016811/71b98486-a30e-406e-9d9d-4d02eacc6e36)
+
+**7. Contacts Tab**
 ![image](https://github.com/MainakRepositor/MainakVerse/assets/64016811/57f376dc-ca20-4c25-bc72-585cf7021779)
 
 ## Mobile View
