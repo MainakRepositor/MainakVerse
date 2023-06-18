@@ -9,7 +9,7 @@
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 </head>
 <body>
-
+  <audio control loop autoplay src="/assets/sound.mp3"></audio>
   <div class="loader_bg">
     <p style="color:rgb(179, 237, 245); font-size: 30px; text-align: center; margin-top:250px; margin-left: 20px;">PREPARING...</p>
     <div class="loader"></div>
@@ -40,5 +40,10 @@
         $('.loader_bg').fadeToggle();
       }, 2500);
     </script>
+     <script type="text/javascript">
+      window.onload=function(){
+          document.getElementById("my_audio").play();
+          }
+      </script>
 </body>
 </html>
