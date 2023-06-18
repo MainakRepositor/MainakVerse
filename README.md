@@ -1,5 +1,7 @@
 # MainakVerse - Personal portfolio
 
+### N.B. The website plays sounds. Please allow sound in your browser to get the full experience.
+
 ## Techs used:
 
 - HTML
