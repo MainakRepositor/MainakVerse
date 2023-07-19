@@ -211,6 +211,7 @@ article {
   border: 3px solid rgb(85, 196, 221);
   border-radius: 20px;
   padding: 15px;
+  overflow-x:scroll;	
   box-shadow: var(--shadow-1);
   z-index: 1;
   animation: shadow 20s linear infinite;
